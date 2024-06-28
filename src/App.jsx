@@ -35,17 +35,17 @@ function App() {
   return (
     <div className="bg-slate-100 p-2 min-h-[100vh] ">
       <div className="max-w-[1500px] mx-auto space-y-5">
-        <header className="flex justify-between items-center ">
+        <header className="flex justify-between items-center  max-sm:space-y-4 max-sm:items-start max-sm:flex-col">
           <div>
-            <h1 className="text-red-500 text-[40px] font-bold">
+            <h1 className="text-red-500 text-[40px] font-bold max-sm:text-[20px]">
               Pokemon Memory Game
             </h1>
-            <p className="font-bold text-red-400">
+            <p className="font-bold text-red-400 max-sm:text-[15px]">
               Get points by clicking on an image but don't click on any more
               than once!
             </p>
           </div>
-          <div className="text-red-800">
+          <div className="text-red-800 max-sm:text-[15px]">
             <p>Current Score: {score.current}</p>
             <p>Best Score: {score.best}</p>
           </div>
